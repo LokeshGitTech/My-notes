@@ -28,7 +28,7 @@ function App() {
   return (
     <>
     <NoteState>
-      <Router>
+      <Router basename='My-notes'>
         <Navbar /> 
         <Alert alert={alert}/>
         <div className='container'>
